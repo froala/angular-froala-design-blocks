@@ -1,20 +1,40 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<section class="fdb-block" style="background-image: url(assets/imgs/alt_wide_1.svg);">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-sm-10 col-md-8 text-center text-sm-left">
+        <h1>Froala Design Blocks</h1>
+        <p class="h3">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p>
+        <p class="mt-4">
+          <a class="btn btn-dark mr-3 mr-sm-0" href="https://github.com/froala/design-blocks"><i class="fab fa-github"></i> Github Docs</a>
+          <a class="btn btn-primary ml-sm-3 mr-3 mr-sm-0 mt-3 mt-sm-0" href="https://froala.com/design-blocks#playground">Official Website</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="fdb-block p-2" id="navigator">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler mr-auto ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarNav0">
+        <nav class="m-auto">
+          <a class="btn btn-outline-primary m-1" routerLink="/call-to-action" routerLinkActive="active">Call To Action</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/contacts" routerLinkActive="active">Contacts</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/contents" routerLinkActive="active">Contents</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/features" routerLinkActive="active">Features</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/footers" routerLinkActive="active">Footers</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/forms" routerLinkActive="active">Forms</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/headers" routerLinkActive="active">Headers</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/pricings" routerLinkActive="active">Pricings</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/teams" routerLinkActive="active">Teams</a>
+          <a class="btn btn-outline-primary m-1" routerLink="/testimonials" routerLinkActive="active">Testimonials</a>
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<router-outlet></router-outlet>
