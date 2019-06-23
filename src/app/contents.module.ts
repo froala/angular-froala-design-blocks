@@ -33,6 +33,7 @@ import { Contents31Component } from './contents/contents-31.component';
 import { Contents32Component } from './contents/contents-32.component';
 import { Contents33Component } from './contents/contents-33.component';
 import { Contents34Component } from './contents/contents-34.component';
+import { Contents35Component } from './contents/contents-35.component';
 import { NgModule } from '@angular/core';
 
 @NgModule({
@@ -73,7 +74,8 @@ import { NgModule } from '@angular/core';
     Contents31Component,
     Contents32Component,
     Contents33Component,
-    Contents34Component
+    Contents34Component,
+    Contents35Component
   ],
   exports: [
     Contents01Component,
@@ -109,7 +111,8 @@ import { NgModule } from '@angular/core';
     Contents31Component,
     Contents32Component,
     Contents33Component,
-    Contents34Component
+    Contents34Component,
+    Contents35Component
   ]
 })
 export class ContentsModule { }
