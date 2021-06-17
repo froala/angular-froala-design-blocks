@@ -27,6 +27,8 @@ Over 170 responsive design blocks ready to be used in your web or mobile apps. A
 
 ## Quick start
 
+Using Angular 7.3
+
 1. Install package.
 
 ```bash
